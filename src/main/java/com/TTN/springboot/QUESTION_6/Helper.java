@@ -1,4 +1,4 @@
-package com.TTN.springboot.QUESTION_3;
+package com.TTN.springboot.QUESTION_6;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -10,17 +10,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class Helper {
 
+     /* It allows Spring to resolve and inject collaborating beans into our bean.*/
 
-    /* It allows Spring to resolve and inject collaborating beans into our bean.*/
-
+    /*CONSTRUCTOR INJECTION the act of statically defining the list of required Dependencies by specifying them as parameters to the class's constructor.
+ The constructor signature is compiled with the type and it's available for all to see.
+ */
     @Autowired
     COMPUTER_SCIENCE computer_science;
 
-
-
-
-    public Helper(COMPUTER_SCIENCE computer_science) {
-
+    public Helper(COMPUTER_SCIENCE computer_science)
+    {
         this.computer_science = computer_science;
     }
 

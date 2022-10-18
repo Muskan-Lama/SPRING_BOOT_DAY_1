@@ -1,13 +1,17 @@
-package QUESTION_6;
+package com.TTN.springboot.QUESTION_4;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+/* Get a Spring Bean from application context and display its properties.
+
+ */
 
 @SpringBootApplication 
 public class App
 {
     public static void main( String[] args )
     {
+        /*GETTING APPLICATION CONTEXT */
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(App.class);
 

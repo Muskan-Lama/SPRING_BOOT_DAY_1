@@ -1,4 +1,4 @@
-package QUESTION_4;
+package com.TTN.springboot.QUESTION_6;
 
 import org.springframework.stereotype.Component;
 
