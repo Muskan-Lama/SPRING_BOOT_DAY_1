@@ -1,27 +1,27 @@
-package com.TTN.springboot.QUESTION_2;
+package com.TTN.springboot.question2;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 /*HELPER CLASS */
-public class Helper {
+public class helper {
 
     @Autowired
-    COMPUTER_SCIENCE computer_science;
+    computerScience computerScience;
 
-    public Helper(COMPUTER_SCIENCE computer_science) {
-        this.computer_science = computer_science;
+    public helper(computerScience computerScience) {
+        this.computerScience = computerScience;
     }
 
     public void display()
     {
-        computer_science.display();
+        computerScience.display();
     }
 
   //  public void setComputer_science(COMPUTER_SCIENCE computer_science)
     {
-        this.computer_science=computer_science;
+        this.computerScience = computerScience;
     }
 
     }

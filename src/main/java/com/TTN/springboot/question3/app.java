@@ -1,7 +1,8 @@
-package com.TTN.springboot.QUESTION_2;
+package com.TTN.springboot.question3;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 
 
 /* @SpringBootApplication annotation is used to mark a configuration class
@@ -9,21 +10,18 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  scanning. It's same as
  declaring a class with @Configuration, @EnableAutoConfiguration and @ComponentScan annotations.
  */
-@SpringBootApplication
-public class App
+@SpringBootApplication 
+public class app
 {
     public static void main( String[] args )
-
     {
-        /*GIVING PATH */
         AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(com.TTN.springboot.QUESTION_2.App.class);
+                new AnnotationConfigApplicationContext(app.class);
 
 
-       Helper output = context.getBean(Helper.class);
+       helper output = context.getBean(helper.class);
         output.display();
 
 
     }
-
 }

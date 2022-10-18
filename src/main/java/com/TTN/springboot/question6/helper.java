@@ -1,4 +1,4 @@
-package com.TTN.springboot.QUESTION_6;
+package com.TTN.springboot.question6;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  and classpath scanning is used.
  */
 @Component
-public class Helper {
+public class helper {
 
      /* It allows Spring to resolve and inject collaborating beans into our bean.*/
 
@@ -16,21 +16,24 @@ public class Helper {
  The constructor signature is compiled with the type and it's available for all to see.
  */
     @Autowired
-    COMPUTER_SCIENCE computer_science;
+    computerScience computerScience;
 
-    public Helper(COMPUTER_SCIENCE computer_science)
+
+  /*helper constructor */
+    public helper(computerScience computerScience)
     {
-        this.computer_science = computer_science;
+
+        this.computerScience = computerScience;
     }
 
     public void display()
     {
-        computer_science.display();
+        computerScience.display();
     }
 
   //  public void setComputer_science(COMPUTER_SCIENCE computer_science)
     {
-        this.computer_science=computer_science;
+        this.computerScience = computerScience;
     }
 
     }

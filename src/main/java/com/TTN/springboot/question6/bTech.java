@@ -1,9 +1,9 @@
-package com.TTN.springboot.QUESTION_2;
+package com.TTN.springboot.question6;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class B_TECH implements  COMPUTER_SCIENCE{
+public class bTech implements computerScience {
 
 
     @Override

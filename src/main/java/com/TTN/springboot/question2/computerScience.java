@@ -1,8 +1,8 @@
-package com.TTN.springboot.QUESTION_2;
+package com.TTN.springboot.question2;
 /*LOOSELY COUPLED*/
 
 
-public interface COMPUTER_SCIENCE {
+public interface computerScience {
     /*loose coupling means they are mostly independent*/
 
     void display();

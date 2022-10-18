@@ -1,4 +1,4 @@
-package com.TTN.springboot.QUESTION_4;
+package com.TTN.springboot.question4;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -7,16 +7,16 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 
 @SpringBootApplication 
-public class App
+public class app
 {
     public static void main( String[] args )
     {
         /*GETTING APPLICATION CONTEXT */
         AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(App.class);
+                new AnnotationConfigApplicationContext(app.class);
 
 
-       Helper output = context.getBean(Helper.class);
+       helper output = context.getBean(helper.class);
         output.display();
 
 

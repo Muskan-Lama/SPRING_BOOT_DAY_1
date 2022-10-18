@@ -1,4 +1,4 @@
-package com.TTN.springboot.QUESTION_5;
+package com.TTN.springboot.question5;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
@@ -9,7 +9,7 @@ a single-valued dependency. There should be only one @Primary bean among same ty
  */
 @Component
 @Primary
-public class MCA implements COMPUTER_SCIENCE {
+public class mca implements computerScience {
 
 
     @Override

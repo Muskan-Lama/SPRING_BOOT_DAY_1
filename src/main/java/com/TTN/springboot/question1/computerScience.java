@@ -1,6 +1,6 @@
-package com.TTN.springboot.QUESTION_1;
+package com.TTN.springboot.question1;
 
-public class COMPUTER_SCIENCE {
+public class computerScience {
 
     /*a coupling technique in which hardware
     and software components are highly dependent on each other.
@@ -8,7 +8,7 @@ public class COMPUTER_SCIENCE {
 
     public static void main(String[] args) {
 
-        MCA c=new MCA();
+        mca c=new mca();
         c.display();
     }
 

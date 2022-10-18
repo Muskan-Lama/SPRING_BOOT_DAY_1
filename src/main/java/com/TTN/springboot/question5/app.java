@@ -1,19 +1,21 @@
-package com.TTN.springboot.QUESTION_6;
+package com.TTN.springboot.question5;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+/*(5) Demonstrate how you will
+ resolve ambiguity while autowiring bean (Hint : @Primary)
+ */
 
-/* Perform Constructor Injection in a Spring Bean*/
 @SpringBootApplication 
-public class App
+public class app
 {
     public static void main( String[] args )
     {
         AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(App.class);
+                new AnnotationConfigApplicationContext(app.class);
 
 
-       Helper output = context.getBean(Helper.class);
+       helper output = context.getBean(helper.class);
         output.display();
 
 

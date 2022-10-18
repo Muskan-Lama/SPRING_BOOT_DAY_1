@@ -1,11 +1,11 @@
-package com.TTN.springboot.QUESTION_6;
+package com.TTN.springboot.question6;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-public class MCA implements COMPUTER_SCIENCE {
+public class mca implements computerScience {
 
 
     @Override
