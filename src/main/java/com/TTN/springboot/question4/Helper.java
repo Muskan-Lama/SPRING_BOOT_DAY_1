@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 public class helper {
 
     @Autowired
-    computerScience computerScience;
+    ComputerScience computerScience;
 
-    public helper(computerScience computerScience) {
+    public helper(ComputerScience computerScience) {
         this.computerScience = computerScience;
     }
 
@@ -18,7 +18,7 @@ public class helper {
         computerScience.display();
     }
 
-  //  public void setComputer_science(COMPUTER_SCIENCE computer_science)
+  //  public void setComputer_science(ComputerScience computer_science)
     {
         this.computerScience = computerScience;
     }
