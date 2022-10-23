@@ -9,7 +9,7 @@ a single-valued dependency. There should be only one @Primary bean among same ty
  */
 @Component
 @Primary
-public class mca implements computerScience {
+public class Mca implements ComputerScience {
 
 
     @Override
