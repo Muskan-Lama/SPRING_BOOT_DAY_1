@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-public class mca implements computerScience {
+public class Mca implements ComputerScience {
 
 
     @Override
