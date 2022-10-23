@@ -2,12 +2,12 @@ package com.TTN.springboot.question1;
 
 
 /*TIGHTLY COUPLED DEPENDING ON AN OBJECT       */
-public class mca {
+public class Mca{
 
 
-    bTech bTech =new bTech();
+   Btech btech =new Btech();
        void  display()
        {
-           bTech.display();
+           btech.display();
        }
 }
