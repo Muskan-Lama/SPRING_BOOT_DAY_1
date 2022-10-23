@@ -1,7 +1,7 @@
 package com.TTN.springboot.question1;
 
 /*TIGHTLY COUPLED*/
-public class bTech {
+public class Btech{
 
     void display()
     {
