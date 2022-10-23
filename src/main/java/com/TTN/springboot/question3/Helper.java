@@ -8,18 +8,17 @@ import org.springframework.stereotype.Component;
  and classpath scanning is used.
  */
 @Component
-public class helper {
+public class Helper {
 
 
     /* It allows Spring to resolve and inject collaborating beans into our bean.*/
 
     @Autowired
-    computerScience computerScience;
+    ComputerScience computerScience;
 
 
 
-
-    public helper(computerScience computerScience) {
+    public helper(ComputerScience computerScience) {
 
         this.computerScience = computerScience;
     }
@@ -29,7 +28,7 @@ public class helper {
         computerScience.display();
     }
 
-  //  public void setComputer_science(COMPUTER_SCIENCE computer_science)
+  //  public void setComputer_science(ComputerScience computer_science)
     {
         this.computerScience = computerScience;
     }
