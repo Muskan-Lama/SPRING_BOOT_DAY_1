@@ -3,7 +3,7 @@ package com.TTN.springboot.question6;
 import org.springframework.stereotype.Component;
 
 @Component
-public class bTech implements computerScience {
+public class Btech implements ComputerScience {
 
 
     @Override
