@@ -1,6 +1,6 @@
 package com.TTN.springboot.question6;
 
-public interface computerScience {
+public interface ComputerScience {
 
     void display();
 
