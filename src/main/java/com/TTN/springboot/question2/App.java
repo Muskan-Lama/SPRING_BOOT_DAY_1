@@ -10,17 +10,17 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  declaring a class with @Configuration, @EnableAutoConfiguration and @ComponentScan annotations.
  */
 @SpringBootApplication
-public class app
+public class  App
 {
     public static void main( String[] args )
 
     {
         /*GIVING PATH */
         AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(app.class);
+                new AnnotationConfigApplicationContext(App.class);
 
 
-       helper output = context.getBean(helper.class);
+       Helper output = context.getBean(Helper.class);
         output.display();
 
 
