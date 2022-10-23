@@ -5,7 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 /* Perform Constructor Injection in a Spring Bean*/
 @SpringBootApplication 
-public class app
+public class App
 {
     public static void main( String[] args )
     {
@@ -13,7 +13,7 @@ public class app
                 new AnnotationConfigApplicationContext(app.class);
 
 
-       helper output = context.getBean(helper.class);
+       Helper output = context.getBean(Helper.class);
         output.display();
 
 
