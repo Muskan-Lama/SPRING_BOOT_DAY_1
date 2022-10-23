@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  and classpath scanning is used.
  */
 @Component
-public class helper {
+public class Helper {
 
      /* It allows Spring to resolve and inject collaborating beans into our bean.*/
 
@@ -16,11 +16,11 @@ public class helper {
  The constructor signature is compiled with the type and it's available for all to see.
  */
     @Autowired
-    computerScience computerScience;
+    ComputerScience computerScience;
 
 
   /*helper constructor */
-    public helper(computerScience computerScience)
+    public Helper(ComputerScience computerScience)
     {
 
         this.computerScience = computerScience;
