@@ -7,16 +7,16 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 
 @SpringBootApplication 
-public class app
+public class App
 {
     public static void main( String[] args )
     {
         /*GETTING APPLICATION CONTEXT */
         AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(app.class);
+                new AnnotationConfigApplicationContext(App.class);
 
 
-       helper output = context.getBean(helper.class);
+       Helper output = context.getBean(Helper.class);
         output.display();
 
 
