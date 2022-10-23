@@ -31,7 +31,7 @@ public class Helper {
         computerScience.display();
     }
 
-  //  public void setComputer_science(COMPUTER_SCIENCE computer_science)
+  //  public void setComputer_science(ComputerScience computer_science)
     {
         this.computerScience = computerScience;
     }
